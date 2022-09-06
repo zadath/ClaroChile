@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ClaroChile</string>
+    <string name="splasbienvenida">Club de</string>
+    <string name="beneficios">Beneficios</string>
+    <string name="eligeCombos">PAQUETES CLARO HOGAR</string>
+    <string name="eligeServicios">Elige tus servicios</string>
+
+    <string name="btnContinuar">Continuar</string>
+    <string name="btn_consultar">Consultar</string>
+    <string name="btn_regresar">Regresar</string>
+    <string name="seccion_principal">Bienvenido a Claro Chile</string>
+    <string name="seccion_contratar">Contratación de servicios </string>
+    <string name="seccion_contratar_descrip">Entra y conoce nuestra oferta comercial</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="agendacion">Elige una fecha de instalación</string>
+    <string name="title_activity_nav_principal">NavPrincipal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo_contratacion">Contratación de servicios en Proceso</string>
+    <string name="descripcion_contratacion">En breve uno de nuestros ejecutivos te contactará !</string>
+    <string name="descripcion_orden">Esta es tu orden de contratación:</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+</resources>

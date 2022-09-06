@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".UserActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logoutBoton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Cerrar Sesión"
+        android:drawableLeft="@drawable/logout"
+        />
+    <TextView
+        android:id="@+id/mensajeBienvenida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hola"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/tvUsuarioNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="nombre ejemplo"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="40dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnConsultaFacturas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Servicios"
+            android:layout_marginBottom="12dp">
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMisPuntos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Datos del Cliente"
+            android:layout_marginBottom="12dp">
+        </com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPromociones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Principal"
+            android:layout_marginBottom="12dp">
+        </com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTipoDocto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Obtener tipo de documento"
+            android:layout_marginBottom="12dp">
+        </com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnQuejas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quejas y Reclamos"
+            android:layout_marginBottom="12dp">
+        </com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnConsultaSaldo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consulta de Saldo"
+            android:layout_marginBottom="12dp">
+        </com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEnvioCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Envio de correo"
+            android:layout_marginBottom="12dp">
+        </com.google.android.material.button.MaterialButton>
+
+
+    </LinearLayout>
+
+</LinearLayout>

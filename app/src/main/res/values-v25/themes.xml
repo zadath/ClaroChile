@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="datePickerTheme">
+
+        <item name="colorPrimary">#1976D2</item>
+        <item name="colorPrimaryVariant">#1976D2</item>
+        <item name="colorOnPrimary">#1976D2</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#1976D2</item>
+        <item name="colorSecondaryVariant">#1976D2</item>
+        <item name="colorOnSecondary">#1976D2</item>
+        <!-- Status bar color. -->
+
+    </style>
+
+</resources>

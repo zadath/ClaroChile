@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=02:CD:7E:DC:63:CD:9A:0D:9B:98:DA:7B:19:B6:F8:C6:8F:53:44:37%3Bcom.example.clarochile.fragments
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.example.clarochile.fragments
+
+    SHA-1 certificate fingerprint:
+    02:CD:7E:DC:63:CD:9A:0D:9B:98:DA:7B:19:B6:F8:C6:8F:53:44:37
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCpiYKsZc55CFwk9QVM_52xtX7trAENwdA</string>
+</resources>

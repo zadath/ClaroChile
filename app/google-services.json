@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "35678565502",
+    "project_id": "miclaro-9610f",
+    "storage_bucket": "miclaro-9610f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35678565502:android:dfce315b5dd797c595942f",
+        "android_client_info": {
+          "package_name": "com.example.clarochile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35678565502-ltno8jqa237uf8lh5pprtbrp18g4hccn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoOeBt1YQSx-FLt6PD6LrE2ZxAv6ZLs80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35678565502-ltno8jqa237uf8lh5pprtbrp18g4hccn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35678565502:android:3fdcca62b703029a95942f",
+        "android_client_info": {
+          "package_name": "com.example.miclaro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35678565502-ltno8jqa237uf8lh5pprtbrp18g4hccn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoOeBt1YQSx-FLt6PD6LrE2ZxAv6ZLs80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35678565502-ltno8jqa237uf8lh5pprtbrp18g4hccn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

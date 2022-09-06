@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#195A5252"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.ResumenFragment">
+
+
+    <LinearLayout
+        android:id="@+id/linearWrapGeneral"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:animateLayoutChanges="true"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true"
+            android:backgroundTint="@color/primary"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/continuarLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resumen de la Venta"
+                android:textSize="19sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:padding="7dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/LinearDatosCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="4dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                android:layout_gravity="center"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/textViewNombre"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nombre"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"
+                            android:padding="7dp"/>
+                        <TextView
+                            android:id="@+id/textViewRut"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rut"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"
+                            android:padding="7dp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/textViewMovil"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Movil"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"
+                            android:padding="7dp"/>
+                        <TextView
+                            android:id="@+id/textViewCorreo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Correo"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"
+                            android:padding="7dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/LinearDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                android:layout_gravity="center"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/textViewRegiones"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Region"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"
+                            android:padding="7dp"/>
+                        <TextView
+                            android:id="@+id/textViewProvincias"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Provincia"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"
+                            android:padding="7dp"
+                            android:gravity="center"/>
+                        <TextView
+                            android:id="@+id/textViewComunas"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Comuna"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"
+                            android:padding="7dp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/textViewCalles"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Calle"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"
+                            android:padding="7dp"/>
+                        <TextView
+                            android:id="@+id/textViewNumeros"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Numero"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"
+                            android:padding="7dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/LinearServicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="4dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                android:layout_gravity="center"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/textViewCombo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Combo"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"
+                            android:padding="7dp"/>
+                        <TextView
+                            android:id="@+id/textViewDescripcion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Descripcion"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"
+                            android:padding="7dp"
+                            android:gravity="center"/>
+                        <TextView
+                            android:id="@+id/textViewCosto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Costo"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"
+                            android:padding="7dp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/textViewServicio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Servicio"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"
+                            android:padding="7dp"/>
+                        <TextView
+                            android:id="@+id/textViewDescServicio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Descripción"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"
+                            android:padding="7dp"/>
+                        <TextView
+                            android:id="@+id/textViewCostoCombo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Costo"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"
+                            android:padding="7dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearAgendacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                android:layout_gravity="center"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewAgenda"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Agendación"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:padding="7dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/textViewFecha"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:gravity="center"
+                            android:padding="7dp"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:id="@+id/textViewHora"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:gravity="center"
+                            android:padding="7dp"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearCrearOrden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                android:layout_gravity="center"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewResumen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aceptar la contratación"
+                        android:textSize="19sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnCrearOrden"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contratar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp">
+
+                    </com.google.android.material.button.MaterialButton>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

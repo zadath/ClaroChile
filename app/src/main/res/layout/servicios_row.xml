@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/img_service"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
+
+        <TextView
+            android:id="@+id/txt_nombre_servicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="Nombre del Servicio"/>
+
+        <TextView
+            android:id="@+id/txt_descripcion_servicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Descripción del Servicios"/>
+
+        <TextView
+            android:id="@+id/txt_precio_servicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="$ 159.00"/>
+
+    </LinearLayout>
+
+</LinearLayout>
